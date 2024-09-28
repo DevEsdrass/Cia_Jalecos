@@ -28,8 +28,8 @@ body {
 }
 
 .profile-picture {
-    width: 140px;
-    height: 140px;
+    width: 150px;
+    height: 130px;
     border-radius: 50%;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
