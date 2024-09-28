@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #e0f7fa, #ffffff);
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: #f8f8f8;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.container:hover {
+    box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.3);
+}
+
+.profile-container {
+    perspective: 1000px;
+    margin-bottom: 20px;
+}
+
+.profile-picture {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    object-fit: cover;
+}
+
+h1 {
+    color: #2E8B57;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.whatsapp-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.whatsapp-button {
+    padding: 15px;
+    background-color: #5ED5A8;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.whatsapp-button:hover {
+    background-color: #2E8B57;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.whatsapp-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
